@@ -1,7 +1,7 @@
 # Mediapipe & M5Stick Workout Tracker
 This project is a repetition counting program that uses the Mediapipe Pose module to track the number of repetitions of a particular exercise. The user initiates the repetition counting by hitting the M5StickCPlus smartwatch's main button. The program uses BLE to communicate with the smartwatch. A complete repetition is defined by the user by hitting the M5StickCPlus main button. During the workout, the program uses computer vision (cv2 library) to track what is happening via the webcam and to display the repetition count, repetitions per second, and the user's pose targets. The program uses a three-state machine to count repetitions. At any point, the user can hit the button on the M5StickCPlus again to finish the workout, which is indicated on the screen.
 
-* <b> Video Demonstration: https://youtu.be/cLX6_wTYfWg </b>
+<b> Video Demonstration: https://youtu.be/cLX6_wTYfWg </b>
 
 
 ## Accomplishments/Failures
